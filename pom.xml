@@ -7,43 +7,43 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>SampleRegistrationForm Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <properties>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
-     <java.version>17</java.version>
-</properties>
-  <distributionManagement>
-  <repository>
-    <id>demo-demo</id>
-    <name>demo-demo</name>
-    <url>https://demo-637423339839.d.codeartifact.us-east-1.amazonaws.com/maven/demo/</url>
-  </repository>
- </distributionManagement>
+        <properties>
+            <maven.compiler.source>1.7</maven.compiler.source>
+            <maven.compiler.target>1.7</maven.compiler.target>
+            <java.version>17</java.version>
+        </properties>
+        <distributionManagement>
+            <repository>
+                <id>demo-demo</id>
+                <name>demo-demo</name>
+                <url>https://demo-637423339839.d.codeartifact.us-east-1.amazonaws.com/maven/demo/</url>
+            </repository>
+        </distributionManagement>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
-<dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>javax.servlet-api</artifactId>
-    <version>3.1.0</version>
-    <scope>provided</scope>
-</dependency>
-    
-  </dependencies>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.2.3</version>
-      </plugin>
-    </plugins>
-    <finalName>RegistrationForm</finalName>
-  </build>
-</project>
+        <dependencies>
+                <dependency>
+                    <groupId>junit</groupId>
+                    <artifactId>junit</artifactId>
+                    <version>3.8.1</version>
+                    <scope>test</scope>
+                    </dependency>
+                    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+                <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>3.1.0</version>
+                <scope>provided</scope>
+        </dependency>
+            
+        </dependencies>
+        <build>
+            <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.3</version>
+            </plugin>
+            </plugins>
+            <finalName>RegistrationForm</finalName>
+        </build>
+    </project>
