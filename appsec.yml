@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+  destination: /usr/share/nginx/html
+hooks:
+  Afterinstall:
+    - location: scripts/install_dependencies.sh
+      timeout: 300
+      runas: root
