@@ -11,7 +11,7 @@
   	<servlet-class>com.codingsuperstar.servlets.RegistrationHandler</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>RegistrationHandler</servlet-name>
-  	<url-pattern>/RegistrationHandler</url-pattern>
+  	<servlet-name>RegistrationHandler1</servlet-name>
+  	<url-pattern>/RegistrationHandler1</url-pattern>
   </servlet-mapping>
 </web-app>
