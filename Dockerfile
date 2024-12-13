@@ -1,4 +1,5 @@
-FROM tomcat:8-jre8
-RUN rm -rf /usr/local/tomcat/webapps/ROOT
-COPY ROOT.war /usr/local/tomcat/webapps
-CMD ["catalina.sh", "run"]
+FROM httpd:latest
+RUN apt-get update -y
+RUN apt-get upgrade -y
+RUN apt-get install wget git -y
+CMD httpd -D FOREGROUND
