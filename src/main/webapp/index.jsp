@@ -1,7 +1,7 @@
 <html>
 <head>
 <script type="text/javascript" src="validate.js"></script>
-<title>Register now!</title>
+<title>Shailesh</title>
 </head>
 <body>
 <style>
@@ -32,7 +32,7 @@ cellspacing="2">
 size="30"></td>
 </tr>
 <tr>
-<td>Postal Address</td>
+<td>local Address</td>
 <td><input type="text" name="paddress" id="paddress" size="30"></td>
 </tr>
 
