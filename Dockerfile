@@ -1,5 +1,3 @@
-FROM httpd:latest
-RUN apt-get update -y
-RUN apt-get upgrade -y
-RUN apt-get install wget git -y
-CMD 'httpd -D FOREGROUND'
+FROM ubuntu:20.04
+RUN apt-get update && apt-get install wget -y
+CMD ["echo", "Hellow From HTTPS images!"]
